@@ -2,6 +2,7 @@
   display: flex;
   width: 100%;
   height: 50px;
+  border-bottom: 1px solid #e1e7f0;
   &__logo {
     padding-left: 22px;
     display: flex;
@@ -86,6 +87,7 @@
     }
     &-btn_default {
       padding: 0 21px 0 21px;
+      height: 50px;
       background: none;
       border: none;
       border-left: 1px solid #e1e7f0;
