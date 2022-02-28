@@ -2,7 +2,7 @@ import React from 'react';
 import { PageText } from '../../constants/enums';
 import './header.scss';
 import UserIcon from '../../assets/svg/user-icon.svg';
-import LockIcon from '../../assets/svg/unlock-icon1.svg';
+import LockIcon from '../../assets/svg/unlock-icon.svg';
 
 const Header: React.FC = () => {
 
@@ -40,7 +40,9 @@ const Header: React.FC = () => {
             <p className="header__user-lang-text header__user-text_default">{PageText.USER_LANG}</p>
           </button>
           <button className="header__user-lock header__user-btn_default">
-            <img src={LockIcon} alt="lock" className="header__user-lock-icon" />
+            <svg className="header__user-lock-icon">
+              <use href={`${LockIcon}#Layer_1`}></use>
+            </svg>
           </button>
         </div>
       </div>
