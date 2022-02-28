@@ -6,4 +6,7 @@ export enum PageText {
   NAVIGATION_ADMINISTRATION = 'Administration',
   USER_LANG = 'ENG',
   userName = 'Alexander',
+  STATUS_RUN = 'Run',
+  STATUS_BTN_ON = 'on',
+  STATUS_BTN_OFF = 'off'
 }
