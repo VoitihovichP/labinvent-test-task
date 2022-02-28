@@ -66,8 +66,8 @@
       cursor: pointer;
       transition: 0.3s all;
       &:hover {
-        transform: scale(1.1);
-        box-shadow: 3px 5px 7px 5px #a3a1a1;
+        color: #ffffff;
+        background-color: #2f3b4c;
       }
     }
   }
@@ -78,6 +78,12 @@
       align-items: center;
       gap: 16px;
     }
+    &-lock {
+      &-icon {
+        width: 17px;
+        height: 24px;
+      }
+    }
     &-btn_default {
       padding: 0 21px 0 21px;
       background: none;
@@ -86,7 +92,7 @@
       cursor: pointer;
       transition: 0.3s all;
       &:hover {
-        transform: scale(1.04);
+        transform: scale(1.02);
         box-shadow: 3px 5px 7px 5px #a3a1a1;
       }
     }
