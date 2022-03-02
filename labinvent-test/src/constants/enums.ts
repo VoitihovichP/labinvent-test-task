@@ -8,5 +8,12 @@ export enum PageText {
   userName = 'Alexander',
   STATUS_RUN = 'Run',
   STATUS_BTN_ON = 'on',
-  STATUS_BTN_OFF = 'off'
+  STATUS_BTN_OFF = 'off',
+  WIDGETS_CARD_SAMPLER = 'Sampler',
+  WIDGETS_CARD_PUMP = 'Quat. Pump',
+  WIDGETS_CARD_INDEX_A = 'A',
+  WIDGETS_CARD_INDEX_B = 'B',
+  WIDGETS_CARD_MIN_DESCR = '0.0',
+  WIDGETS_CARD_MAX_DESCR = '100.0',
+  WIDGETS_CARD_DESCR_SPEED = '1.000 mL/min'
 }

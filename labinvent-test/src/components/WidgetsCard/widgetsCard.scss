@@ -1,0 +1,100 @@
+.widgets__card {
+  width: 189px;
+  height: 189px;
+  background-color: #ffffff;
+  border: 1px solid #bfc2c4;
+  &-title {
+    padding: 11px 7px 9px 7px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    height: 30px;
+    border-bottom: 1px solid #bfc2c4;
+    &-indicator {
+      width: 10px;
+      height: 10px;
+      &_first {
+        background-color: #1a9022;
+      }
+      &_second {
+        background-color: #f5ad3c;
+      }
+    }
+    &-text {
+      font-family: 'Roboto Bold';
+      font-size: 14px;
+      letter-spacing: 0.28px;
+      color: #2f3b4c;
+    }
+  }
+  &-pictures {
+    padding: 26px 38px 26px 25px;
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    &-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 21px;
+    }
+    &-sampler {
+      width: 58px;
+      height: 108px;
+    }
+    &-thermostat {
+      width: 28px;
+      height: 42px;
+    }
+    &-vial {
+      width: 21px;
+      height: 35px;
+      background: url('../../assets/svg/vial-icon.svg') center center/cover no-repeat;
+      border: none;
+    }
+    &_default {
+      padding: 37px 22px 5px 22px;
+      align-items: center;
+      gap: 23px;
+    }
+  }
+  &-bottles {
+    display: flex;
+    gap: 8px;
+    &-icon {
+      position: relative;
+    }
+    &-index {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: 'Roboto Regular';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      letter-spacing: 0.22px;
+      color: #2f3b4c;
+    }
+    &-svg {
+      width: 30px;
+      height: 53px;
+    }
+    &-descr {
+      font-family: 'Roboto Regular';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 10px;
+      letter-spacing: 0.22px;
+      text-align: center;
+      color: #2f3b4c;
+    }
+  }
+  &-valve {
+    width: 51px;
+    height: 31px;
+  }
+  &-ml-speed {
+    margin-top: 24px;
+  }
+}
