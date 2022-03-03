@@ -1,4 +1,5 @@
 .widgets {
+  position: relative;
   padding: 23px 20px;
   display: flex;
   flex-direction: column;
@@ -6,4 +7,26 @@
   min-width: 228px;
   height: 100%;
   background-color: #f1f3f2;
+  &__close-btn {
+    position: absolute;
+    right: -6%;
+    top: 4%;
+    transform: translate(6%, -4%);
+    width: 30px;
+    height: 30px;
+    background: #f1f3f2;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0.5px 0.9px 2px rgba(0, 0, 0, 0.3);
+    &-icon {
+      width: 21px;
+      height: 21px;
+      transform: scale(-1, 1);
+      fill: #a8a8a8;
+      transition: 0.3s all;
+      &_active {
+        transform: scale(-1, 1);
+      }
+    }
+  }
 }
