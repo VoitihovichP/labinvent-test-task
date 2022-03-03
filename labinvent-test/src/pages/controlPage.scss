@@ -1,4 +1,11 @@
-.page-wrapper {
-  display: flex;
-  height: calc(100vh - 50px);
+.page {
+  &__wrapper {
+    display: flex;
+    height: calc(100vh - 50px);
+  }
+  &__content {
+    padding: 16px 19px 12px 19px;
+    min-width: calc(100vw - 508px);
+    background-color: #f1f3f2;
+  }
 }

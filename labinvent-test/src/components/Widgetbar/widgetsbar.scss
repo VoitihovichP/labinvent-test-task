@@ -7,11 +7,13 @@
   min-width: 228px;
   height: 100%;
   background-color: #f1f3f2;
+  box-shadow: inset 0px 3px 7px rgba(0, 0, 0, 0.35);
   &__close-btn {
     position: absolute;
     right: -6%;
     top: 4%;
     transform: translate(6%, -4%);
+    padding: 0 0 0 5px;
     width: 30px;
     height: 30px;
     background: #f1f3f2;

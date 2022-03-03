@@ -1,0 +1,88 @@
+.method__tabs {
+  display: flex;
+  width: 100%;
+  min-height: 46px;
+  border-bottom: 1px solid #bdc9d1;
+  &-worklist {
+    padding: 16px 39px 14px 15px;
+    display: flex;
+    align-items: flex-end;
+    background-color: #f1f3f2;
+    border-right: 1px solid #bdc9d1;
+    &-head {
+      display: flex;
+      gap: 17px;
+    }
+    &-title {
+      font-family: 'Roboto Regular';
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #2f3b4c;
+    }
+    &-status {
+      display: flex;
+      align-items: flex-end;
+      gap: 6px;
+      &-icon {
+        width: 9px;
+        height: 16px;
+        margin-bottom: 1px;
+      }
+      &-text {
+        font-family: 'Roboto Bold';
+        font-size: 14px;
+        color: #2574a9;
+      }
+    }
+    &-todo {
+      display: flex;
+      align-items: flex-end;
+      gap: 8px;
+      margin-left: 30px;
+      &-subtitle {
+        font-family: 'Roboto Regular';
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #727272;
+      }
+      &-injections {
+        font-family: 'Roboto Regular';
+        font-size: 14px;
+        color: #2f3b4c;
+      }
+    }
+    &-timer {
+      margin-left: 38px;
+      font-family: 'Roboto Regular';
+      font-size: 14px;
+      color: #2f3b4c;
+    }
+  }
+  &-method {
+    padding: 15px 28px 14px 19px;
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    border-right: 1px solid #bdc9d1;
+    &-title {
+      font-family: 'Roboto Bold';
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #2f3b4c;
+    }
+    &-descr {
+      font-family: 'Roboto Regular';
+      font-size: 14px;
+      color: #2f3b4c;
+    }
+  }
+  &-single-run {
+    padding: 16px 47px 14px 17px;
+    font-family: 'Roboto Regular';
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #2f3b4c;
+    background-color: #f1f3f2;
+    border-right: 1px solid #bdc9d1;
+  }
+}
